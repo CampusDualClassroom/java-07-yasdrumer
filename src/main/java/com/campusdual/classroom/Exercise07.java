@@ -1,5 +1,6 @@
 package com.campusdual.classroom;
 
+import java.util.ArrayList;
 
 public class Exercise07 {
 
@@ -17,7 +18,7 @@ public class Exercise07 {
     // Si lo encuentra, que imprima el siguiente mensaje → El elemento X se encuentra en la posición: Y
     // Si NO lo encuentra, que imprima el siguiente mensaje → El elemento X no se encuentra en la lista.
     public static void positionInAList(int num) {
-        java.util.List<Integer> list = new java.util.ArrayList<>();
+        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 10; i >= 0; i--) {
             list.add(i);
         }
